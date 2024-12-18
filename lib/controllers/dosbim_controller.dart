@@ -11,26 +11,7 @@ class DosbimController extends GetxController {
     super.onInit();
     // Tambahkan data dummy permohonan mahasiswa
     permohonanList.addAll([
-      PermohonanModel(
-        namaMahasiswa: "Ahmad Fauzan",
-        jadwal: "2024-12-13, 09:00 - 11:00",
-        status: "Menunggu",
-      ),
-      PermohonanModel(
-        namaMahasiswa: "Siti Nurhaliza",
-        jadwal: "2024-12-15, 14:00 - 16:00",
-        status: "Menunggu",
-      ),
-      PermohonanModel(
-        namaMahasiswa: "Bagus Prasetyo",
-        jadwal: "2024-12-15, 08:00 - 10:00",
-        status: "Disetujui",
-      ),
-      PermohonanModel(
-        namaMahasiswa: "Saraswati",
-        jadwal: "2024-12-18, 08:00 - 10:00",
-        status: "Menunggu",
-      ),
+
     ]);
   }
 
@@ -49,9 +30,6 @@ class DosbimController extends GetxController {
   }
 
   var dosbimList = <Dosbim>[
-    Dosbim(id: '1', nama: 'Suryo Jatmiko', email: 'suryoJatmiko@university.com'),
-    Dosbim(id: '2', nama: 'Sigit Santoso', email: 'sigitSantoso@university.com'),
-    Dosbim(id: '3', nama: 'Maria Ulfah', email: 'mariaUlfa@university.com'),
   ].obs;
 
   // Menyimpan dosbim yang dipilih

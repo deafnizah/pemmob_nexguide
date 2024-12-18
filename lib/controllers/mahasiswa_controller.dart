@@ -10,20 +10,7 @@ class MahasiswaController extends GetxController {
 
     // Data dummy untuk jadwal
     jadwalList.addAll([
-      JadwalModel(
-        hari: '2024-12-14',
-        waktu: '09:00 - 11:00',
-        lokasi: "Ruang Bimbingan",
-        catatan: "Diskusi proposal",
-        status: "Tersedia",
-      ),
-      JadwalModel(
-        hari: '2024-12-14',
-        waktu: '14:00 - 16:00',
-        lokasi: "Online",
-        catatan: "Revisi laporan",
-        status: "Tersedia",
-      ),
+
     ]);
   }
 
